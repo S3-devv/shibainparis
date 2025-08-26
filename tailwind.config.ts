@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'sans': ['Inter', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +55,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// French theme colors
+				'french-rouge': 'hsl(var(--french-rouge))',
+				'french-bleu': 'hsl(var(--french-bleu))',
+				'french-blanc': 'hsl(var(--french-blanc))',
+				'french-beige': 'hsl(var(--french-beige))',
+				'french-cream': 'hsl(var(--french-cream))',
+				'dark-text': 'hsl(var(--dark-text))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
