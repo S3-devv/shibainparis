@@ -40,18 +40,28 @@ All colors MUST be HSL.
     --input: 42 20% 85%;
     --ring: 0 100% 50%;
 
-    /* Custom French theme colors */
-    --french-rouge: 0 100% 50%;
-    --french-bleu: 220 100% 50%;
+    /* Custom French theme colors - Enhanced */
+    --french-rouge: 0 85% 55%;
+    --french-bleu: 220 90% 60%;
     --french-blanc: 0 0% 100%;
     --french-beige: 42 39% 96%;
     --french-cream: 42 45% 98%;
     --dark-text: 220 13% 18%;
     --soft-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-
-    /* Gradients */
+    
+    /* Vibrant Fun Colors */
+    --neon-pink: 330 100% 70%;
+    --electric-blue: 200 100% 60%;
+    --gold: 45 100% 60%;
+    --mint: 160 100% 70%;
+    --sunset-orange: 25 100% 65%;
+    
+    /* Gradients - Enhanced */
     --gradient-french: linear-gradient(135deg, hsl(var(--french-rouge)), hsl(var(--french-bleu)));
+    --gradient-rainbow: linear-gradient(135deg, hsl(var(--neon-pink)), hsl(var(--electric-blue)), hsl(var(--mint)));
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--sunset-orange)), hsl(var(--gold)));
     --gradient-elegant: linear-gradient(135deg, hsl(var(--french-beige)), hsl(var(--french-cream)));
+    --gradient-glow: linear-gradient(135deg, hsl(var(--french-rouge) / 0.8), hsl(var(--electric-blue) / 0.8));
 
     --radius: 0.75rem;
 
