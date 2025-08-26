@@ -1,4 +1,3 @@
-// Update this page (the content is just a fallback if you fail to update the page)
 
 import Hero from "@/components/Hero";
 import Description from "@/components/Description"; 
@@ -8,6 +7,8 @@ import MemesSection from "@/components/MemesSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  console.log("Index page is rendering");
+  
   return (
     <div className="min-h-screen font-sans">
       <Hero />
